@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EDNOC English</title>
+  <meta name="description" content="EDNOC ENGLISH: Personalized Spoken English courses for beginners to advanced learners. Flexible scheduling, experienced instructors, guaranteed results."/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="EDNOC English" />
+  <meta property="og:description" content="Unlock Your Potential with Confident English Communication. Join EDNOC ENGLISH for personalized spoken English courses." />
+  <meta property="og:image" content="https://ednocenglish.com/assets/w-img.jpg" />
+  <meta property="og:url" content="https://ednocenglish.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <!-- Header -->
+
+    <header class="header" aria-label="Main Navigation">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="EDNOC ENGLISH Home">
+        <img src="./assets/logo.webp" class="logo" alt="EDNOC_ENGLISH_logo" />
+      </a>
+      <div class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#method">Method</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+      <button class="btn menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </nav>
+    <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Mobile Menu">
+      <a href="#about" onclick="closeDrawer()">About</a>
+      <a href="#courses" onclick="closeDrawer()">Courses</a>
+      <a href="#method" onclick="closeDrawer()">Method</a>
+      <a href="#why" onclick="closeDrawer()">Why Us</a>
+      <a href="#contact" class="btn" onclick="closeDrawer()">Contact</a>
+    </div>
+  </header>
+
+  <!-- whats app icon -->
+  <a href="https://wa.me/916238079042" class="w-app" target="_blank" style="position:fixed;bottom:20px;right:20px;width:50px;height:50px;background:#25D366;border-radius:50%;box-shadow:0 4px 8px rgba(0,0,0,.3);display:grid;place-items:center;z-index:1000" aria-label="Chat on WhatsApp">
+    <img src="./assets/whatsapp.png" alt="WhatsApp" style="width:60%;height:60%">
+  </a>
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Welcome to EDNOC ENGLISH</span>
+        <h1 class="title">Unlock Your Potential with Confident English Communication</h1>
+        <p class="lead">Discover a world of possibilities with expertly designed Spoken English courses. Whether you’re a beginner or advanced learner, our personalized approach ensures rapid progress and real results.</p>
+        <div class="cta-row">
+          <a href="#courses" class="btn" aria-label="View Courses">Explore Courses →</a>
+          <a href="#contact" class="btn" style="border-color:rgba(0,237,154,.6)">Book a Screening Session</a>
+        </div>
+        <div style="margin-top:14px; display:flex; gap:8px; flex-wrap:wrap">
+          <span class="pill"> 100% results guarantee</span>
+          <span class="pill"> Experienced instructors</span>
+          <span class="pill"> Flexible scheduling</span>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="padding:18px;">
+          <a href="./offer.html">
+            <img alt="Illustration of English learning" src="./assets/offer.jpg" style="border-radius:14px ;max-height: 400px;"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="grid cols-2">
+        <div class="card" style="padding:22px">
+          <h2>About Us</h2>
+          <p>At <strong>EDNOC ENGLISH</strong>, we’re passionate about empowering individuals to communicate confidently in English. Our team of experienced instructors and customized learning programs make us a premier destination for Spoken English training.</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+            <span class="pill">🎯 Personalized Training</span>
+            <span class="pill">📚 Comprehensive Curriculum</span>
+            <span class="pill">🗣️ Real-life Speaking Practice</span>
+          </div>
+        </div>
+        <div class="card" style="padding:22px">
+          <h2>Highlights</h2>
+          <ul>
+            <li>Tailored courses for every level</li>
+            <li>Live video classes and call activities</li>
+            <li>Dedicated guidance and support</li>
+            <li>Flexible timings to suit your schedule</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section class="section" id="courses">
+    <div class="container">
+      <div style="display:flex;align-items:end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:14px">
+        <h2>Our Courses</h2>
+        <span class="badge pill">Beginner → Advanced</span>
+      </div>
+      <div class="grid cols-3">
+        <article class="card course">
+          <span class="pill">30 days</span>
+          <h3>1) Beginner Spoken English</h3>
+          <ul>
+            <li>Develop fluent reading & writing skills</li>
+            <li>Flexible scheduling</li>
+            <li>100% results guarantee</li>
+            <li>Customized teaching approach</li>
+          </ul>
+        </article>
+        <article class="card course">
+          <span class="pill">30 days</span>
+          <h3>2) Basic Spoken English</h3>
+          <ul>
+            <li>Refine reading & writing skills</li>
+            <li>Enhance spoken comprehension</li>
+            <li>Develop effective communication</li>
+          </ul>
+        </article>
+        <article class="card course">
+          <span class="pill">30 days</span>
+          <h3>3) Intermediate Spoken English</h3>
+          <ul>
+            <li>Build confident speaking & comprehension</li>
+            <li>45‑minute live video classes</li>
+            <li>15‑minute call activities</li>
+            <li>Customized teaching approach</li>
+          </ul>
+        </article>
+        <article class="card course">
+          <span class="pill">Flexible</span>
+          <h3>4) Advanced Spoken English</h3>
+          <ul>
+            <li>30 minutes of live call activity per day</li>
+            <li>Personalized interaction with trainers</li>
+            <li>Fully customized to your schedule</li>
+          </ul>
+        </article>
+        <article class="card course">
+          <span class="pill">Class 1 – Plus 2</span>
+          <h3>5) Students Online</h3>
+          <ul>
+            <li>Adaptive learning approach</li>
+            <li>Prioritize texts, reading, writing, speaking</li>
+            <li>30 days of live, one‑hour video classes</li>
+          </ul>
+        </article>
+        <article class="card course">
+          <span class="pill">For Mothers</span>
+          <h3>6) Mothers’ Magic</h3>
+          <ul>
+            <li>English reading & writing for mothers</li>
+            <li>Methods to teach English to children</li>
+            <li>Personalized training by female instructors</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section class="section" id="method">
+    <div class="container">
+      <h2>Our Methodology</h2>
+      <div class="grid cols-2">
+        <div class="card step">
+          <div class="step-num">1</div>
+          <div>
+            <h3>Screening Session</h3>
+            <p>We assess your English level and goals to personalize your learning path.</p>
+          </div>
+        </div>
+        <div class="card step">
+          <div class="step-num">2</div>
+          <div>
+            <h3>Interactive Learning</h3>
+            <p>Engage in group discussions, role‑plays, and speaking exercises.</p>
+          </div>
+        </div>
+        <div class="card step">
+          <div class="step-num">3</div>
+          <div>
+            <h3>Customized Training</h3>
+            <p>Receive targeted instruction tailored to your needs.</p>
+          </div>
+        </div>
+        <div class="card step">
+          <div class="step-num">4</div>
+          <div>
+            <h3>Experienced Instructors</h3>
+            <p>Learn from expert trainers with extensive knowledge.</p>
+          </div>
+        </div>
+        <div class="card step">
+          <div class="step-num">5</div>
+          <div>
+            <h3>Comprehensive Curriculum</h3>
+            <p>Benefit from well‑structured, outcome‑driven lessons.</p>
+          </div>
+        </div>
+        <div class="card step">
+          <div class="step-num">6</div>
+          <div>
+            <h3>Personalized Attention</h3>
+            <p>Enjoy dedicated guidance and continuous support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section" id="why">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <div class="why">
+        <div class="card why-item">
+          <h4>💯 Results Guarantee</h4>
+          <p>We’re committed to measurable progress.</p>
+        </div>
+        <div class="card why-item">
+          <h4>🧭 Personalized Approach</h4>
+          <p>Learning plans that adapt to you.</p>
+        </div>
+        <div class="card why-item">
+          <h4>🗓️ Flexible Scheduling</h4>
+          <p>Timings that fit your routine.</p>
+        </div>
+        <div class="card why-item">
+          <h4>👩‍🏫 Expert Instructors</h4>
+          <p>Seasoned trainers who care.</p>
+        </div>
+        <div class="card why-item">
+          <h4>📘 Full Curriculum</h4>
+          <p>Structured lessons, real practice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container contact">
+      <div class="card panel">
+        <h2>Get in Touch</h2>
+        <p class="lead">Contact us to learn more and schedule your <strong>Screening Session</strong>.</p>
+        <form id="contactForm" action="https://formspree.io/f/movnddde" method="POST">
+  <div class="field">
+    <label for="name">Name</label>
+    <input id="name" name="name" class="input" placeholder="Your full name" required />
+  </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input id="email" name="email" class="input" placeholder="you@email.com" type="email" required />
+  </div>
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" class="textarea" placeholder="Tell us about your goals…" required></textarea>
+  </div>
+  <button class="btn submit" type="submit">Send Message</button>
+  <p id="formStatus" style="margin-top:10px;color:var(--muted)"></p>
+</form>
+      </div>
+      <div class="card panel">
+        <h3>Contact Information</h3>
+        <ul style="list-style:none;padding:0;margin:10px 0 0">
+          <li>📞 Phone: <a href="tel:+916238079042">+91 62380 79042</a></li>
+          
+          <li>✉️ Email: <a href="mailto:ednocenglish@gmail.com">ednocenglish@gmail.com</a></li>
+          
+          <li>📍 Location: Online & In‑person</li>
+          <br>
+        </ul>
+        <div style="height:14px"></div>
+        <a class="btn" href="#courses">View Courses</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap">
+      <div>© <span id="year">2025</span> EDNOC ENGLISH. All rights reserved.</div>
+      <div style="opacity:.8">Made with ❤ for better communication.</div>
+    </div>
+  </footer>
+
+  <script src="./script.js" ></script>
+
+</body>
+</html>
